@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: "1.0.<br>100"
   termsOfService: "javascrip://alert(document.cookie)"
-  title: Test xss via markdown [a](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)
+  title: Test xss via markdown ![Uh oh...](https://xhibpk46hk5givckhj1z0d2m2d87ww.burpcollaborator.net"onload="alert('XSS'))
   description: description with **MAGELLAN** format <script language="javascript">alert('script-in-description')</script> <img src=x onerror="alert('img-in-description')">
 tags:
   - name: Admin
