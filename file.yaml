@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: "1.0.<br>100"
   termsOfService: "javascrip://alert(document.cookie)"
-  title: Test xss via markdown <img src=x onerror=alert(1) /> 
+  title: **MAGELLAN**  <img src=x onerror=alert(1) /> 
   description: description with **MAGELLAN** format <script language="javascript">alert('script-in-description')</script> <img src=x onerror="alert('img-in-description')">
 tags:
   - name: Admin
